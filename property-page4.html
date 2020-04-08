@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Real estate agent website made by TENODEVWEB as part of his portfolio showcase.">
+    <title>MarkHeins - Real State Agent</title>
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i,300,400,500,700,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/332fabed83.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="propertyPage4">
+    <header class="head-style">
+        <a href="index.html"><img src="/img/logo.svg" alt="logo" class="logo"></a>
+        <nav class="nav-header">
+            <a href="index.html">Home</a>
+            <a href="view-properties.html">View properties</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <a href="#" class="boton-header boton-blue">call</a>
+        <div class="mobile-menu"><i class="fas fa-bars"></i></div>
+        <a href="#" class="phone-mobile"><i class="fas fa-phone"></i></a>
+    </header>
+
+    <section class="sec1-pp1 container1">
+      <div class="slider-property">
+        <h1>2504 SW 19th St, Miami, FL 33145</h1>
+        <div class="swiper-container ss2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide sw2"><img src="/img/p4i1.webp" alt="img slider1"></div>
+            <div class="swiper-slide sw2"><img src="/img/p4i2.webp" alt="img slider2"></div>
+            <div class="swiper-slide sw2"><img src="/img/p4i3.webp" alt="img slider3"></div>
+            <div class="swiper-slide sw2"><img src="/img/p4i4.webp" alt="img slider4"></div>
+            <div class="swiper-slide sw2"><img src="/img/p4i5.webp" alt="img slider5"></div>
+            <div class="swiper-slide sw2"><img src="/img/p4i6.webp" alt="img slider6"></div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <!-- Swiper JS -->
+      </div>
+    </section>
+
+    <section class="sec2-pp1 container1">
+      <div class="cont-pp1 esp-cont">
+        <h2>Property Description</h2>
+        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. versions of Lorem Ipsum</p>
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <p class="ult-p">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including</p>
+      </div>
+    </section>
+
+    <section class="sec3-pp1 container1">
+      <div class="cont-pp1 esp-cont">
+        <h3>Property Features</h3>
+        <div class="pf-style">
+            <p><i class="fas fa-wind"></i> <b>Air Conditioner:</b> <span>yes</span></p>
+            <p><i class="fas fa-fire"></i> <b>Heating:</b>  <span>yes</span></p>
+            <p><i class="fas fa-toilet"></i> <b>Bathrooms:</b>  <span>3</span></p>
+            <p><i class="fas fa-home"></i> <b>Type:</b>  <span>single family</span></p>
+            <p><i class="fas fa-horse"></i> <b>Lot:</b>  <span>0.35 acres</span></p>
+            <p><i class="fas fa-warehouse"></i> <b>garages:</b>  <span>2</span></p>
+            <p><i class="fas fa-tools"></i> <b>year of construction:</b>  <span>1998</span></p>
+            <p><i class="fas fa-hard-hat"></i> <b>constructed area:</b>  <span>657 sqft</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec4-pp1 container1">
+      <div class="cont-pp1">
+        <h3>Addres and location</h3>
+        <div id="pp4-map"></div>
+      </div>
+    </section>
+
+    <section class="sec5-pp1 container1">
+      <div class="cont-pp1">
+        <h3>special details</h3>
+        <div>
+          <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="sticky-cont">
+      <div class="sticky-contact">
+        <form action="#" class="sticky-contact-form">
+
+          <h3>interested in this property?</h3>
+          <p>Lets get is touch now!</p>
+  
+  
+          <div class="form-camps sc">
+            <label for="form-name">Name:</label>
+            <input type="text" id="form-name" name="fname">
+          </div>
+          <div class="form-camps sc">
+            <label for="form-phone">Phone:</label>
+            <input type="tel" id="form-phone" name="fphone">
+          </div>
+          <div class="form-camps sc">
+            <label for="form-email">Email:</label>
+            <input type="email" id="form-email" name="fmail">
+          </div>
+  
+          <div class="sticky-form-button-flex">
+          <input type="submit" value="Contact Agent" class="sticky-form-button">
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="fot">
+        <p>&#169; 2020 MarkHeins Real State Agent - All Rights Reserved</p>
+
+        <div class="social">
+            <h5>connect with us</h5>
+            <nav class="fot-nav">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </nav>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
